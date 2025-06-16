@@ -1,5 +1,9 @@
 # Handwritten-Digit-Classifier
 
+This is a group project completed for my AI class during my Junior year at App State.
+
+
+
 **Convolutional Neural Networks** (CNNs) are specialized for processing grid-like data, such as images. CNNs use convolutional layers to detect spatial hierarchies, making them ideal for computer vision tasks.
 
 **Handwritten Digit Classifier**: Train an FNN on the MNIST dataset to recognize handwritten digits.
