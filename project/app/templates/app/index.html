@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+    <script src="{% static 'main.js' %}" defer></script>
+    <title>App</title>
+</head>
+<body>
+    <img src="{% static 'runner.gif' %}" alt="Example GIF" id="corner-gif">
+    <div id="wrapper">
+        <div id="controls">
+            <button class="control" id="clear">Clear</button>
+            <button class="control" id="write">Write</button>
+            <button class="control" id="big">Big</button>
+            <button class="control" id="small">Small</button>
+            <button class="control" id="erase">Erase</button>
+            <button class="control" id="test">Test</button>
+            <button class="control" id="camera">Camera</button>
+        </div>
+        <canvas id="writing-canvas" height="500" width="500"></canvas>
+        <h1 id="output">Output:</h1>
+    </div>
+</body>
+</html>

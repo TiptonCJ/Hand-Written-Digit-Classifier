@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Comic Sans MS"
+}
+
+body{
+    background-color: black;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: min(100vh, 1000px);
+    width: 100vw;
+    gap: 25px;
+}
+
+#writing-canvas {
+    background-color: white;
+    border-radius: 25px;
+}
+
+.control {
+    height: 50px;
+    width: 150px;
+    font-size: 24px;
+}
+
+h1 {
+    color: white;
+}
+
+#corner-gif {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: 50px;
+    z-index: 10;
+}
