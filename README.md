@@ -16,6 +16,11 @@ This is a group project completed for my AI class during my Junior year at App S
 To save required libs
 `pip freeze > requirements.txt`
 
+we recommend using a virtual environment to manage the requirements
+`py -3.9 -m venv .venv`
+`.\\.venv\\Scripts\\activate`
+Note - we recommend only using versions 3.8 to 3.11 to allow all packages be downloaded successfully
+
 To install required libs
 `pip install -r requirements.txt`  
 Note - if this does not work, just pip install django, mathplot, pandas, tensorflow, numpy and other stuff in requirements.txt
